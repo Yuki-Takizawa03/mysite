@@ -127,7 +127,7 @@ section {
 メイン
 ------------------------------------------- */
 .main-visual {
-    background: url(/img/mv.webp) top/cover no-repeat;
+    background: url(img/mv.webp) top/cover no-repeat;
     min-height: 100vh;
     position: relative;
     padding: 0px 5%;
