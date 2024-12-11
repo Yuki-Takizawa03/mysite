@@ -63,12 +63,14 @@
 
 /*========= ボタンのためのCSS ===============*/
 .openbtn {
-    display: grid;
-    justify-items: center;
-    position: fixed;
+    position: relative;
+    /* position: fixed; */
     z-index: 9999;
     /*ボタンを最前面に*/
-    right: 5%;
+    /* top: 50%;
+    right: 5%; */
+    /* transform: translateY(-50%); */
+    display: block;
     cursor: pointer;
     width: 80px;
     height: 80px;
@@ -76,12 +78,12 @@
 
 /*×に変化*/
 .openbtn span {
-    display: inline-block;
+    display: block;
     transition: all .4s;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
     height: 3px;
     border-radius: 2px;
     background-color: #666;
