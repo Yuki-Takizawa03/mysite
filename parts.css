@@ -63,10 +63,11 @@
 
 /*========= ボタンのためのCSS ===============*/
 .openbtn {
+    display: grid;
+    justify-items: center;
     position: fixed;
     z-index: 9999;
     /*ボタンを最前面に*/
-    top: 3%;
     right: 5%;
     cursor: pointer;
     width: 80px;
@@ -200,12 +201,12 @@ fade
 @keyframes fadeLeftAnime {
     from {
         opacity: 0;
-        transform:translate(-50%, -50%) translateX(-100px);
+        transform: translate(-50%, -50%) translateX(-100px);
     }
 
     to {
         opacity: 1;
-        transform:translate(-50%, -50%) translateX(0);
+        transform: translate(-50%, -50%) translateX(0);
     }
 }
 
